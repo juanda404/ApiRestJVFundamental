@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+.plantilla{
+    display: flex;
+    flex-direction: column;
+}
+/*Style to head*/
+.head{
+    height: 10vh;
+    background-color:   #0ca821 ;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*Style navar navigation*/
+.navegation{
+    height: 2vh;
+    margin: 10px;
+    text-align: center
+}
+/*Style zone information main*/
+.titles{
+    text-align: center;
+    margin: 10px;
+}
+.information{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+.information article{
+    text-align: center;
+}
+.information img{
+    max-width: 300px;
+    border-style: groove;
+    border-radius: 20px;
+    border-color: green;
+    border-width: 4px;
+}
+
+/*Style of footer*/
+.foot{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.4rem;
+    background-color:   #0ca821 ;
+}
+
+/*Style for footer*/
+.left{
+
+    text-align: center;
+}
+.rigth a{
+    text-decoration: none;
+    padding-right: 10px;
+}

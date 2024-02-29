@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dog API</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="plantilla">
+    <header class="head">
+        <h1>Cats Random</h1>
+        <span id="error"></span>
+        <nav>
+            <a href="#">Home</a>
+            <a href="">Works</a>
+        </nav>
+    </header>
+    <aside class="navegation">
+        <button type="button">Other pic</button>
+    </aside>
+    <main >
+        <h2 class="titles">Cats app</h2>
+        <div class="information">
+            <article>
+                <img id="img1"  alt="pic cat random">
+                <button id="btn1">Add to Favorites</button>
+            </article>
+            <article>
+                <img id="img2"  alt="pic cat random">
+                <button id="btn2">Add to Favorites</button>
+            </article>
+        </div>
+        <section class="information">
+            <h2>Upload the pic of your Cat </h2>
+            <form id="uploadingForm">
+                <input id="file" type="file" name="file">
+                <button type="button" onclick="uploadCatPic()">Upload pic Cat</button>
+            </form>
+        </section>
+        <h2 class="titles">Cats Favorites</h2>
+        <span id="errorFavorite"></span>
+
+        <div class="information" id="informationFavorite">
+        </div>
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+<footer class="foot">
+   <section class="left">
+    <p>Designed and Developed in Colombia</p>
+    <p>@2024 Juan David Santamaría</p>
+   </section>
+   <section class="rigth">
+   <a href="http://">Twitter</a> 
+    <a href="http://">GitHub</a>
+   </section>
+</footer>
+</html>
